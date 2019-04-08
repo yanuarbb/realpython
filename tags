@@ -4,3 +4,10 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+asyncio	async/countasync.py	/^import asyncio$/;"	i
+count	async/countasync.py	/^async def count():$/;"	f
+count	async/countsync.py	/^def count():$/;"	f
+main	async/countasync.py	/^async def main():$/;"	f
+main	async/countsync.py	/^def main():$/;"	f
+time	async/countasync.py	/^    import time$/;"	i
+time	async/countsync.py	/^import time$/;"	i
