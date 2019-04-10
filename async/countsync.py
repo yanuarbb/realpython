@@ -25,3 +25,4 @@ if __name__ == "__main__":
     main()
     elapsed = time.perf_counter() - s
     print(f"Executed in {elapsed:0.2f} seconds.")
+

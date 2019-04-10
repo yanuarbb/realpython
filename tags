@@ -4,10 +4,48 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+argparse	async/asyncq.py	/^    import argparse$/;"	i
+asyncio	async/asyncq.py	/^import asyncio$/;"	i
+asyncio	async/chained.py	/^import asyncio$/;"	i
+asyncio	async/coroutine.py	/^import asyncio$/;"	i
 asyncio	async/countasync.py	/^import asyncio$/;"	i
+asyncio	async/rand.py	/^import asyncio$/;"	i
+c	async/rand.py	/^c = ($/;"	v
+chain	async/chained.py	/^async def chain(n: int) -> None:$/;"	f
+consume	async/asyncq.py	/^async def consume(name: int, q: asyncio.Queue) -> None:$/;"	f
 count	async/countasync.py	/^async def count():$/;"	f
 count	async/countsync.py	/^def count():$/;"	f
+elapsed	async/asyncq.py	/^    elapsed = time.perf_counter() - start$/;"	v
+f	async/rules.py	/^async def f(x):$/;"	f
+g	async/rules.py	/^async def g(x):$/;"	f
+it	async/asyncq.py	/^import itertools as it$/;"	i
+m	async/rules.py	/^async def m(x):$/;"	f
+m	async/rules.py	/^def m(x):$/;"	f
+main	async/asyncq.py	/^async def main(nprod: int, ncon: int):$/;"	f
+main	async/chained.py	/^async def main(*args):$/;"	f
 main	async/countasync.py	/^async def main():$/;"	f
 main	async/countsync.py	/^def main():$/;"	f
+main	async/rand.py	/^async def main():$/;"	f
+makeitem	async/asyncq.py	/^async def makeitem(size: int = 5) -> str:$/;"	f
+makerandom	async/rand.py	/^async def makerandom(idx: int, threshold: int = 6) -> int:$/;"	f
+ns	async/asyncq.py	/^    ns = parser.parse_args()$/;"	v
+os	async/asyncq.py	/^import os$/;"	i
+parser	async/asyncq.py	/^    parser = argparse.ArgumentParser()$/;"	v
+part1	async/chained.py	/^async def part1(n: int) -> str:$/;"	f
+part2	async/chained.py	/^async def part2(n: int, arg: str) -> str:$/;"	f
+produce	async/asyncq.py	/^async def produce(name: int, q: asyncio.Queue) -> None:$/;"	f
+py34_coro	async/coroutine.py	/^def py34_coro():$/;"	f
+py35_coro	async/coroutine.py	/^async def py35_coro():$/;"	f
+randint	async/asyncq.py	/^async def randint(a: int, b: int) -> int:$/;"	f
+randint	async/chained.py	/^async def randint(a: int, b: int) -> int:$/;"	f
+randint	async/rand.py	/^async def randint(a: int, b: int) -> int:$/;"	f
+random	async/asyncq.py	/^import random$/;"	i
+random	async/chained.py	/^import random$/;"	i
+random	async/rand.py	/^import random$/;"	i
+randsleep	async/asyncq.py	/^async def randsleep(a: int = 1, b: int = 5, caller=None) -> None:$/;"	f
+start	async/asyncq.py	/^    start = time.perf_counter()$/;"	v
+sys	async/chained.py	/^    import sys$/;"	i
+time	async/asyncq.py	/^import time$/;"	i
+time	async/chained.py	/^import time$/;"	i
 time	async/countasync.py	/^    import time$/;"	i
 time	async/countsync.py	/^import time$/;"	i
